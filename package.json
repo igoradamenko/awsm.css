@@ -5,7 +5,7 @@
   "author": "Igor Adamenko <mail@igoradamenko.com> (http://igoradamenko.com)",
   "devDependencies": {
     "autoprefixer": "^6.5.4",
-    "browser-sync": "^2.18.1",
+    "browser-sync": "^2.18.2",
     "del": "^2.2.2",
     "gulp": "github:gulpjs/gulp#4.0",
     "gulp-cached": "^1.1.0",
