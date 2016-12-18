@@ -18,7 +18,7 @@
     "gulp-pug": "^3.2.0",
     "gulp-rename": "^1.2.2",
     "gulp-sass": "^3.0.0",
-    "gulp-stylelint": "^3.6.0",
+    "gulp-stylelint": "^3.7.0",
     "gulp-util": "^3.0.5",
     "postcss-discard-comments": "^2.0.4",
     "stylelint-scss": "^1.4.1",
