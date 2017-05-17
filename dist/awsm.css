@@ -116,7 +116,6 @@ h1, h2, h3, h4, h5, h6{
   line-height:1.2; }
   h1:hover > a[href^='#'][id], h1:focus > a[href^='#'][id], h2:hover > a[href^='#'][id], h2:focus > a[href^='#'][id], h3:hover > a[href^='#'][id], h3:focus > a[href^='#'][id], h4:hover > a[href^='#'][id], h4:focus > a[href^='#'][id], h5:hover > a[href^='#'][id], h5:focus > a[href^='#'][id], h6:hover > a[href^='#'][id], h6:focus > a[href^='#'][id]{
     opacity:1;
-    -webkit-transition:opacity 0s, color 300ms ease-out;
     transition:opacity 0s, color 300ms ease-out; }
   h1 + p, h1 + details, h2 + p, h2 + details, h3 + p, h3 + details, h4 + p, h4 + details, h5 + p, h5 + details, h6 + p, h6 + details{
     margin-top:.5em; }
@@ -126,13 +125,11 @@ h1, h2, h3, h4, h5, h6{
     opacity:0;
     background:none;
     color:rgba(0, 0, 0, 0.5);
-    -webkit-transition:opacity 300ms ease-out;
     transition:opacity 300ms ease-out; }
     h1 > a[href^='#'][id]:target, h1 > a[href^='#'][id]:hover, h1 > a[href^='#'][id]:focus, h2 > a[href^='#'][id]:target, h2 > a[href^='#'][id]:hover, h2 > a[href^='#'][id]:focus, h3 > a[href^='#'][id]:target, h3 > a[href^='#'][id]:hover, h3 > a[href^='#'][id]:focus, h4 > a[href^='#'][id]:target, h4 > a[href^='#'][id]:hover, h4 > a[href^='#'][id]:focus, h5 > a[href^='#'][id]:target, h5 > a[href^='#'][id]:hover, h5 > a[href^='#'][id]:focus, h6 > a[href^='#'][id]:target, h6 > a[href^='#'][id]:hover, h6 > a[href^='#'][id]:focus{
       opacity:1;
       box-shadow:none;
       color:#000;
-      -webkit-transition:opacity 0s, color 0s;
       transition:opacity 0s, color 0s; }
     h1 > a[href^='#'][id]:target:focus, h2 > a[href^='#'][id]:target:focus, h3 > a[href^='#'][id]:target:focus, h4 > a[href^='#'][id]:target:focus, h5 > a[href^='#'][id]:target:focus, h6 > a[href^='#'][id]:target:focus{
       outline:none; }
@@ -194,7 +191,6 @@ article > footer{
 a{
   text-decoration:none;
   color:#0064c1;
-  -webkit-transition:color 300ms ease-out, box-shadow 300ms ease-out;
   transition:color 300ms ease-out, box-shadow 300ms ease-out;
   background:url('data:image/svg+xml;charset=utf8,%3Csvg xmlns="http://www.w3.org/2000/svg" width="1" height="1"%3E%3Crect x="0" y="0.5" width="1" height="0.5" fill="rgba(0, 100, 193, 0.35)"/%3E%3C/svg%3E') left bottom repeat-x; }
   @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none){
@@ -207,7 +203,6 @@ a{
   a:hover{
     box-shadow:inset 0px -1px #3000c1;
     color:#3000c1;
-    -webkit-transition:color 0s, box-shadow 0s;
     transition:color 0s, box-shadow 0s; }
 
 abbr{
@@ -218,7 +213,7 @@ abbr{
   letter-spacing:.075em;
   font-size:.9em; }
 
-img, picture{
+img, picture, figure{
   display:block;
   max-width:100%;
   margin:0 auto; }
@@ -248,7 +243,6 @@ table{
   max-width:100%;
   text-align:left;
   vertical-align:top;
-  background:-webkit-linear-gradient(rgba(0, 0, 0, 0.15) 0%, rgba(0, 0, 0, 0.15) 100%) 0 0, -webkit-linear-gradient(rgba(0, 0, 0, 0.15) 0%, rgba(0, 0, 0, 0.15) 100%) 100% 0;
   background:linear-gradient(rgba(0, 0, 0, 0.15) 0%, rgba(0, 0, 0, 0.15) 100%) 0 0, linear-gradient(rgba(0, 0, 0, 0.15) 0%, rgba(0, 0, 0, 0.15) 100%) 100% 0;
   background-attachment:scroll, scroll;
   background-size:1px 100%, 1px 100%;
@@ -265,20 +259,17 @@ table{
     border-left:0; }
     table td:first-child, table th:first-child{
       padding-left:0;
-      background-image:-webkit-linear-gradient(left, white 50%, rgba(255, 255, 255, 0) 100%);
       background-image:linear-gradient(to right, white 50%, rgba(255, 255, 255, 0) 100%);
       background-size:2px 100%;
       background-repeat:no-repeat; }
     table td:last-child, table th:last-child{
       padding-right:0;
       border-right:0;
-      background-image:-webkit-linear-gradient(right, white 50%, rgba(255, 255, 255, 0) 100%);
       background-image:linear-gradient(to left, white 50%, rgba(255, 255, 255, 0) 100%);
       background-position:100% 0;
       background-size:2px 100%;
       background-repeat:no-repeat; }
     table td:only-child, table th:only-child{
-      background-image:-webkit-linear-gradient(left, white 50%, rgba(255, 255, 255, 0) 100%), -webkit-linear-gradient(right, white 50%, rgba(255, 255, 255, 0) 100%);
       background-image:linear-gradient(to right, white 50%, rgba(255, 255, 255, 0) 100%), linear-gradient(to left, white 50%, rgba(255, 255, 255, 0) 100%);
       background-position:0 0, 100% 0;
       background-size:2px 100%, 2px 100%;
@@ -293,7 +284,6 @@ code, kbd, var, samp{
 pre{
   overflow-x:auto;
   font-size:.8em;
-  background:-webkit-linear-gradient(rgba(0, 0, 0, 0.15) 0%, rgba(0, 0, 0, 0.15) 100%) 0 0, -webkit-linear-gradient(rgba(0, 0, 0, 0.15) 0%, rgba(0, 0, 0, 0.15) 100%) 100% 0;
   background:linear-gradient(rgba(0, 0, 0, 0.15) 0%, rgba(0, 0, 0, 0.15) 100%) 0 0, linear-gradient(rgba(0, 0, 0, 0.15) 0%, rgba(0, 0, 0, 0.15) 100%) 100% 0;
   background-attachment:scroll, scroll;
   background-size:1px 100%, 1px 100%;
