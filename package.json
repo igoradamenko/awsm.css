@@ -49,6 +49,7 @@
   },
   "files": [
     "index.js",
+    "dev",
     "dist"
   ]
 }
