@@ -5,7 +5,7 @@ const themes = [
     colors: {
       primary: '#000',
       secondary: '#fff',
-      stealthy: '#aaa',
+      stealthy: '#595959',
       invisible: '#f2f2f2',
       selectionBase: '#0064c1',
       link: '#0064c1',
