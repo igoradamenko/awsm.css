@@ -74,7 +74,7 @@ For more information about options check out [docs](https://igoradamenko.github.
 
 ## Why?
 
-I have to create simple pages in my daily work. Sometimes it's compiled Markdown and sometimes it's pure HTML. I'd like to make them more beautiful without additional classes, ids, etc. So I did it.
+I have to create simple pages in my daily work. Sometimes it's compiled Markdown and sometimes it's pure HTML. I'd like to make them more beautiful without additional classes, ids, etc. and eventually  I did it.
 
 ## License
 
@@ -87,6 +87,7 @@ The MIT License places almost no restrictions on what you can do with this lib. 
 [Website for this repo](https://igoradamenko.github.io/awsm.css/) uses awsm.css. Check this out. Also there are examples of [blog](https://igoradamenko.github.io/awsm.css/examples/blog/) and [homepage](https://igoradamenko.github.io/awsm.css/examples/homepage/) built with awsm.css.
 
 And I use the lib for [my own website](https://igoradamenko.com).
+for reference i sometimes referrer to (https://www.w3schools.com/html/)
 
 If you use the library in your project, feel free to [open issue](https://github.com/igoradamenko/awsm.css/issues/new) and we will add your url in this list :)
 
