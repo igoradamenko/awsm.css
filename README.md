@@ -1,4 +1,4 @@
-# awsm.css
+## awsm.css
 
 [![npm version](https://img.shields.io/npm/v/awsm.css.svg)](https://www.npmjs.com/package/awsm.css)
 
@@ -47,7 +47,7 @@ Current version contains some themes that you can use.
 
 Check them on [the demo page](https://igoradamenko.github.io/awsm.css/download.html).
 
-### unpkg
+## unpkg
 
 Also you can use unpkg for link latest or exact version of library:
     
@@ -57,7 +57,7 @@ Also you can use unpkg for link latest or exact version of library:
     
 Get more information about the unpkg CDN on [unpkg.com](https://unpkg.com/).
 
-### PostCSS API
+## PostCSS API
 
 If you install [npm package](https://www.npmjs.com/package/awsm.css), you can use library as PostCSS plugin:
 
@@ -90,7 +90,7 @@ And I use the lib for [my own website](https://igoradamenko.com).
 
 If you use the library in your project, feel free to [open issue](https://github.com/igoradamenko/awsm.css/issues/new) and we will add your url in this list :)
 
-### v3
+## v3
 
 Short list of projects that use v3 of the library:
 
@@ -105,7 +105,7 @@ Short list of projects that use v3 of the library:
 - [Isomorpic Rendering](https://codient.herokuapp.com/). Demo.
 - [and so on..](https://github.com/search?p=1&q="awsm.css"&type=Code&utf8=✓)
 
-### v2
+## v2
 
 List of projects that use v2 of the library:
 
